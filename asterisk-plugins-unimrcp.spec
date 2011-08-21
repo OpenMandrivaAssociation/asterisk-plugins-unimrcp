@@ -19,6 +19,7 @@ Source: %{origname}.tar.gz
 
 BuildRequires: asterisk-devel
 BuildRequires: libunimrcp-devel libunimrcp-deps-devel
+BuildRequires: expat-devel
 
 Requires: asterisk
 Requires: libunimrcp
