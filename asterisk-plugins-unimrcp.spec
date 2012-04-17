@@ -2,8 +2,8 @@
 %define name asterisk-plugins-unimrcp
 %define devel %mklibname %{name} -d
 %define staticdevel %mklibname -d -s %{name}
-
 %define svnrelease 1815
+%define subrel 1
 
 Name: %{name}
 Version: 0.%svnrelease
