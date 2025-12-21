@@ -17,6 +17,11 @@ BuildRoot: %{_tmppath}/%{name}-%{version}
 
 Source: %{origname}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: asterisk-devel
 BuildRequires: libunimrcp-devel libunimrcp-deps-devel
 BuildRequires: expat-devel
